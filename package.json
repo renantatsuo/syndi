@@ -1,7 +1,11 @@
 {
+  "name": "syndi",
   "dependencies": {
-    "ocaml": "4.12.x",
-    "@opam/dune": "*"
+    "@opam/base64": "*",
+    "@opam/dune": "*",
+    "@opam/ppx_deriving_yojson": "*",
+    "@opam/yojson": "*",
+    "ocaml": "4.12.x"
   },
   "devDependencies": {
     "@opam/ocamlformat": "*",

@@ -1,2 +1,5 @@
 (executable
- (name main))
+ (name main)
+ (libraries base64 yojson ppx_deriving_yojson.runtime)
+ (preprocess
+  (pps ppx_deriving_yojson)))
