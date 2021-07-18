@@ -4,6 +4,8 @@
     "@opam/dune": "*"
   },
   "devDependencies": {
-    "@opam/ocaml-lsp-server": "*"
+    "@opam/ocamlformat": "*",
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/merlin": "*"
   }
 }
